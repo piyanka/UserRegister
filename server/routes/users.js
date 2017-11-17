@@ -251,7 +251,7 @@ router.post('/reset/:token', function(req, res) {
       });
       var mailOptions = {
         to: user.email,
-        from: 'priyankajoshi19942@gmail.com',
+        from: 'your email id',
         subject: 'Your password has been changed',
         text: 'Hello,\n\n' +
           'This is a confirmation that the password for your account ' + user.email + ' has just been changed.\n'
